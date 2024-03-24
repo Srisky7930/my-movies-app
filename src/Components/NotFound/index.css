@@ -1,0 +1,15 @@
+.not-found-card {
+  background-color: #363536;
+  padding: 20px;
+  height: 100vh;
+  text-align: center;
+}
+
+.not {
+  color: red;
+  font-size: 40px;
+}
+
+.not-found-btn {
+  text-decoration: none;
+}

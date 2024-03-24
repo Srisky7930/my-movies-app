@@ -1,0 +1,39 @@
+.movies-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  img {
+    height: 300px;
+    width: 300px;
+  }
+  .img-details {
+    width: 300px;
+  }
+}
+
+img {
+  height: 250px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(250, 247, 247, 0.2),
+    0 6px 20px 0 rgba(253, 253, 253, 0.19);
+}
+
+.img-text {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.link-item {
+  text-decoration: none;
+}

@@ -1,0 +1,74 @@
+.header-container {
+  background-color: #545354;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-container {
+    background-color: #545354;
+    min-width: 100%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 13px;
+  color: white;
+  font-style: serif;
+}
+
+.nav-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: serif;
+  font-weight: bolder;
+  color: red;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .items-list {
+    font-family: Roboto;
+    font-size: 6px;
+    font-weight: 900;
+    color: white;
+  }
+
+  .nav-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: serif;
+    font-weight: bolder;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    padding: 5px;
+    font-style: sans-serif;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-style: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
